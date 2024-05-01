@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_reg.css" />
+  </head>
+  <body>
+    <div class="container_reg">
+      <h3>
+        Login | <span>Register</span>
+      </h3>
+      <form action="#" method="POST" name="form">
+        <div class="form__wd">
+          
+          <p>
+            Enter your email and password to register.
+          </p>
+          <input type="text" id="name" name="name" placeholder="Username" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            id="password_repeat"
+            name="password_repeat"
+            placeholder="Confirm Password"
+            required
+          />
+          <button class="register_btn btn__all" type="submit">Register</button>
+          <fieldset>
+            <legend>Or register with</legend>
+          </fieldset>
+
+          <button type="submit" class="google_btn btn__all">
+            Continue with Google
+          </button>
+
+          <button type="submit" class="fb_btn btn__all">
+            Continue with Facebook
+          </button>
+        </div>
+      </form>
+      <div class="green__foot"></div>
+    </div>
+  </body>
+</html>
